@@ -3,7 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     display: flex;
     min-height: 100vh;
@@ -13,12 +12,10 @@ body {
     background-image: linear-gradient(#87cefa, #00bfff);
     font-family: Arial, Helvetica, sans-serif;
 }
-
 h1 {
     color: #FFF;
     margin: 20px 0;
 }
-
 .busca {
     display: flex;
     width: 300px;
@@ -41,7 +38,6 @@ h1 {
     margin-left: 10px;
     cursor: pointer;
 }
-
 .resultado {
     width: 300px;
     display: none;
@@ -50,7 +46,6 @@ h1 {
     border-radius: 5px;
     background-color: rgba(0, 0, 0, 0.5);
 }
-
 .titulo {
     width: 100%;
     color: #FFF;
@@ -59,7 +54,6 @@ h1 {
     text-align: center;
     padding: 20px;
 }
-
 .info {
     display: flex;
     width: 100%;
@@ -108,14 +102,7 @@ h1 {
     background-color: #FFF;
     transform-origin: left;
 }
-
 .aviso {
     color: #FFF;
     padding-top: 20px;
-}
-
-footer {
-    margin-top: 20px;
-    color: #FFF;
-    font-size: 13px;
 }
